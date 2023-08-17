@@ -9,7 +9,7 @@ namespace WireFrames.Data.Abstract
         void Insert(T t);
         void Delete(T t);
         void Update(T t);
-        List<T> GetAll(T t);
+        List<T> GetAll();
         T GetById(int Id);
     }
 }

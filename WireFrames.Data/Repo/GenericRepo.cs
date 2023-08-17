@@ -16,7 +16,7 @@ namespace WireFrames.Data.Repo
             c.SaveChanges();
         }
 
-        public List<T> GetAll(T t)
+        public List<T> GetAll()
         {
             using var c = new Context();
             return c.Set<T>().ToList();
