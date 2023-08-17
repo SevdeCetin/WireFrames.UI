@@ -8,7 +8,7 @@ namespace WireFrames.Entity.Concrete
     public class Photo
     {
         [Key]
-        public int ID { get; set; }
+        public int PhotoID { get; set; }
         public string Title { get; set; }
         public List<Tag> Tag { get; set; }
         public string FilePath { get; set; }

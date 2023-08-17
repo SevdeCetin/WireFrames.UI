@@ -8,7 +8,9 @@ namespace WireFrames.Entity.Concrete
     public class Tag
     {
         [Key]
-        public int ID { get; set; }
+        public int TagID { get; set; }
         public string TagName { get; set; }
+        public int PhotoID { get; set; }
+        public Photo Photo { get; set; }
     }
 }

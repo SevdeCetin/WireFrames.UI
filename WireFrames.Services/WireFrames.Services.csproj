@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WireFrames.Data\WireFrames.Data.csproj" />
+    <ProjectReference Include="..\WireFrames.Entity\WireFrames.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
